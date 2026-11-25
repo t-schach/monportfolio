@@ -82,5 +82,28 @@ main{
             background: #087e8b;
             box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
             }
+
+    .me { 
+        padding: 58px 20px; 
+        margin: auto;
+    h2 {
+        font-size: 1.6rem;
+        margin: 20px;
+        }
+    .div p {
+        margin: 14px;
+        line-height: 1.6;
+        font-size: 17px;
+    }
+    .div h2 {
+        margin: 18px;
+        font-size: 22px;
+    }
+     .div li {
+        line-height: 1.6;
+        font-size: 17px;
+    }
+    }
+    
 }
 }
