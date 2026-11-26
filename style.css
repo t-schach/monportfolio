@@ -159,5 +159,44 @@ main{
             font-size: 5;
         }
     }
+    #projects{
+        padding: 58px 20px; 
+        #projects h2 {
+            font-size: 1.6em;
+            margin: 20px;
+        }
+       .text {
+            max-width: 650px;
+            color: grey;
+            font-size: 1.1em;
+        }
+        .pros{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 18px;
+            .work{
+                background-color: white;
+                border-radius: 18px;
+                padding: 22px;
+                border: 1px solid rgb(197, 197, 197);
+            }
+            .number{
+                color: #087e8b;
+                font-weight: 700;
+                text-transform: none;
+                letter-spacing: .12em;
+                font-size: 5;
+            }
+        }
+        .badge {
+            display: inline-block;
+            background: #087e8b;
+            color: white;
+            border-radius: 100px;
+            padding: 5px 10px;
+            margin: auto;
+            font-size: 5;
+        }
+    }
 }
 }
